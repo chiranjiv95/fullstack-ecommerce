@@ -1,0 +1,23 @@
+.trash-can {
+  color: rgba(199, 20, 20, 0.788);
+}
+
+.review {
+  font-weight: bold;
+}
+
+/* .emptyCartContainer {
+  display: flex;
+  justify-content: center;
+} */
+
+.emptyCartLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}

@@ -1,0 +1,22 @@
+<div class="main-content">
+  <div align="center">
+    <div
+      *ngIf="isAuthenticated"
+      class="alert alert-info col-md-12"
+      role="alert"
+    >
+      <h3 class="display-2">Discounts</h3>
+      <h3>Coming Soon!!</h3>
+      <p>Thank you for being a member</p>
+      <p>Happy Shopping :)</p>
+    </div>
+    <div
+      *ngIf="!isAuthenticated"
+      class="alert alert-warning col-md-12"
+      role="alert"
+    >
+      <h3>You neen to Login first!</h3>
+      <button routerLink="/login" class="security-btn mt-2">Login</button>
+    </div>
+  </div>
+</div>

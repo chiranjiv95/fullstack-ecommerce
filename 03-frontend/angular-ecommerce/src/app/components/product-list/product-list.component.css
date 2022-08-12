@@ -1,0 +1,12 @@
+a h1:hover {
+  color: #0da8e4;
+}
+
+.price_addIcon {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
